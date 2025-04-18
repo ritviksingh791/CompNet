@@ -23,7 +23,7 @@ int main()
     /*memset() is used to fill a block of memory with a particular value*/
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_port = htons(12345);                // You can change port number here
-    serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1"); // Specify server's
+    serverAddr.sin_addr.s_addr = inet_addr("172.17.61.54"); // Specify server's
     // IP address here
     printf("Address assigned\n");
     /*ESTABLISH CONNECTION*/
